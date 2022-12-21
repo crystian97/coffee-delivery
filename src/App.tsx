@@ -1,11 +1,13 @@
-import reactLogo from './assets/react.svg'
+import { ThemeProvider } from 'styled-components'
+import Home from './pages/Home/Index'
+import { defaultTheme } from './styles/themes/default'
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Coffee delivery</h1>
-    </div>
+    <ThemeProvider theme={defaultTheme}>
+      <Home/>
+   </ThemeProvider>
   )
 }
 
