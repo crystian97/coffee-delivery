@@ -9,3 +9,16 @@ export const HeaderContainer = styled.header`
     padding-right: 10rem;
     padding-left: 10rem;
 `
+
+export const Navbar = styled.nav`
+ display: flex;
+ width: 12.63rem;
+ gap: 12px;
+
+`
+export const Location = styled.span`
+ background: ${props => props.theme['purple']};
+`
+export const Cart = styled.span`
+background: ${props=>props.theme['yellow']};
+`
