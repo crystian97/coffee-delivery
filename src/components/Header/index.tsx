@@ -5,10 +5,10 @@ export default function Header() {
     return ( 
 
         <HeaderContainer>
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="Logo coffee delivery roxo com uma caneca roxa" />
         <Navbar>
-            <Location> <MapPin size={32} weight="fill" /> Location</Location>
-            <Cart><ShoppingCart size={32} weight="fill" />Cart</Cart>
+            <Location> <MapPin size={22} weight="fill" /> Porto Alegre, RS</Location>
+            <Cart><ShoppingCart size={22} weight="fill"  /></Cart>
         </Navbar>
         </HeaderContainer>
      );

@@ -14,11 +14,35 @@ export const Navbar = styled.nav`
  display: flex;
  width: 12.63rem;
  gap: 12px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: regular;
+ font-size: 14px;
+ 
 
 `
 export const Location = styled.span`
- background: ${props => props.theme['purple']};
+ background: ${props => props.theme['purple-light']};
+ color: ${props=>props.theme['purple-dark']};
+ display: flex;
+ align-items: center;
+ width: 8.938rem;
+ height: 2.375rem;
+ padding: 0.5rem;
+ border-radius: 6px;
+ svg{
+    color: ${props=>props.theme['purple']};
+ }
+
 `
 export const Cart = styled.span`
-background: ${props=>props.theme['yellow']};
+background: ${props=>props.theme['yellow-light']};
+color: ${props=>props.theme['yellow-dark']};
+width: 2.375rem;
+height: 2.375rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 6px;
+font-size: 2rem;
+
 `

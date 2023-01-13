@@ -6,9 +6,6 @@ export const  GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
-
-    input{
-        
-    }
+    /* after here place inputs and others styles  */
 
 `

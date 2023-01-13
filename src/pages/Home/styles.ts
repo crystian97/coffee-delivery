@@ -2,5 +2,9 @@ import styled from "styled-components";
 
 
 export const HomeContainer = styled.div`
-background: grey;
+display: flex;
+flex-direction: column;
+padding-left: 160px;
+padding-right: 160px;
+
 `
